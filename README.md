@@ -18,6 +18,12 @@ unacceptable behavior to [info@realm.io](mailto:info@realm.io).
 
 > Language Switch: [中文](https://github.com/realm/SwiftLint/blob/main/README_CN.md), [한국어](https://github.com/realm/SwiftLint/blob/main/README_KR.md).
 
+## Benefits to using this forked version
+- Avoid pulling down any unnecessary dependencies
+- Avoid longer build times
+- We avoid this [issue](https://github.com/realm/SwiftLint/issues/5093)
+- We can share our own version of this build plugin across all of our products
+
 ## Installation
 
 ### Using [Swift Package Manager](https://github.com/apple/swift-package-manager):
